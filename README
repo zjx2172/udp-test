@@ -1,0 +1,9 @@
+# udp-test
+
+A small sample application for sending data over udp. This application is written in C++ and relies on QT.
+
+A buffer representing a block of user data (such as an image) is sent repeatedly by a timer. Each send call
+splits the buffer into smaller datagrams to avoid packet fragmentation. Additional portions of the code mimic
+the design of an existing application.
+
+
